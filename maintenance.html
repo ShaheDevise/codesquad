@@ -55,5 +55,22 @@
     <!-- link script file -->
      <script src="./js/app.js"></script>
     <!-- link script file -->
+
+        <!-- ================ not inspect js ============== -->
+        <script>
+            document.addEventListener('contextmenu', event => event.preventDefault());
+        </script>    
+        <!-- ================ not inspect js ============== -->
+    
+        <!-- ================ not inspect (ctrl+u) js ============== -->
+        <script>
+            document.onkeydown = function(e) {
+                if (e.ctrlKey && 
+                    (e.key === 'u' || e.key === 'U' || e.key === 'i' || e.key === 'I' || e.key === 'p' || e.key === 'P' || e.key === 's' || e.key === 'S')) {
+                    return false;
+                }
+            };
+        </script>        
+        <!-- ================ not inspect (ctrl+u) js ============== -->
 </body>
 </html>
