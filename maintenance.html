@@ -26,7 +26,7 @@
     <!-- boxicons cdn -->
 
 </head>
-<body>
+<body onload="myFunction()">
 
     <!-- ============ maintenance section start  ======================== -->
     <div class="maintenance">
@@ -72,5 +72,12 @@
             };
         </script>        
         <!-- ================ not inspect (ctrl+u) js ============== -->
+
+        <script>
+            var preloader = document.getElementById('loding');
+            function myFunction() {
+                preloader.style.display = 'none';
+            }
+        </script>
 </body>
 </html>
