@@ -1,0 +1,188 @@
+@media (max-width: 1170px) {
+
+    /* =============== header ============== */
+    .contents {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .c_name {
+        margin: 0 auto;
+    }
+    /* =============== header ============== */
+    
+}
+
+/* =============== 1087px ================= */
+@media (max-width: 1087px) {
+
+    /* == end to end section === */
+    .end_to_end_contents {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dualcard {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .ete_runner{
+        margin-bottom: 4rem;
+    }
+    /* == end to end section === */
+
+    /* ==== brand ======= */
+    .brand .brand_images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    /* ==== brand ======= */
+    
+}
+/* =============== 1087px ================= */
+
+
+/* ============== 910px ================= */
+@media (max-width: 910px) {
+
+    /* ======== header ======== */
+    .contents h1 {
+        font-size: 3.5rem;
+    }
+    /* ======== header ======== */
+
+    /* === bereiche ==== */
+    .bereiche_contents .about_bereiche {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bereiche_contents .about_bereiche .bereiche_left_contents {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .bereiche_contents .about_bereiche .bereiche_right_img {
+        width: 80%;
+    }
+    /* === bereiche ==== */
+
+    /* =========== faq section ============== */
+    .faq .faq_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faq .faq_container .faq_left {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .faq .faq_container .faq_right {
+        width: 80%;
+    }
+    /* =========== faq section ============== */
+
+    /* ========= br consulting section ========= */
+    .br_consulting {
+        padding: 0;
+    }
+
+    .br_consulting_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 1rem;
+    }
+
+    .br_consng_content, .br_cnsng_bottom {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .descriptions p {
+        margin-bottom: 5rem;
+    }
+
+    .br_consuting_right .calander {
+        width: 70%;
+    }
+
+    .br_consuting_right {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: none;
+    }
+
+    .time_zone {
+        text-align: center;
+    }
+    /* ========= br consulting section ========= */
+
+
+    /* ==== footer section ============= */
+    footer .footer_content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer .footer_content .footer_left {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .footer_content .footer_right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    /* ==== footer section ============= */
+    
+}
+/* ============== 910px ================= */
+
+
+/* =================== 690px=========================== */
+@media (max-width: 690px) {
+
+    /* = bereiche card == */
+    .bereiche_cards .bereiche_card_container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-column-gap: 3.5rem;
+        grid-row-gap: 1.5rem;
+        padding: 0 1rem;
+    }
+    /* = bereiche card == */
+    
+}
+/* =================== 690px=========================== */

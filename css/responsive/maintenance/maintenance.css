@@ -1,0 +1,32 @@
+.maintenance{
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.maintenance_container{
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.maintenance_container .image_content{
+    display: flex;
+    justify-content: center;
+}
+
+.maintenance_container .image_content img{
+    max-width: 400px;
+    width: 100%;
+}
+
+.maintenance_container .text_contents{
+    text-align: center;
+    line-height: 2;
+}
+
+.maintenance_container .text_contents h5{
+    font-size: 2rem;
+}
+
+.maintenance_container .text_contents .para{
+    color: rgba(0,0,0,0.5);
+}

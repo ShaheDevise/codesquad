@@ -1,0 +1,65 @@
+@media (max-width: 680px) {
+
+    /* ====== header navbar ============ */
+    .navigation_menus {
+        padding: 1rem;
+    }
+    /* ====== header navbar ============ */
+
+    #bar{
+        display: initial;
+    }
+    
+    #close{
+        display: initial;
+        position: absolute;
+        top: 3rem;
+        right: 2rem;
+        font-size: 1.7rem;
+    }
+
+    /* navbar */
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        top: 0;
+        position: fixed;
+        height: 100%;
+        left: -300px;
+        width: 300px;
+        background-color: #f6f6f6;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 5rem 1rem 0 1rem;
+        transition: all 0.5s ease;
+        z-index: 999;
+    }
+
+    .nav_list li a{
+        line-height: 2;
+    }
+
+    .nav_list.opennav{
+        left: 0;
+    }
+    /* navbar */
+
+    /* =========== end to end ========== */
+    .dualcard {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    /* =========== end to end ========== */
+
+    /* ========= footer section ================ */
+    .footer_bottom .footer_bottom_content, .footer_bottom .footer_bottom_content .copywrite {
+        row-gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        line-height: 1.8;
+    }
+    /* ========= footer section ================ */
+    
+}

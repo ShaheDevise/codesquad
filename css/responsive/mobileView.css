@@ -1,0 +1,71 @@
+/* =============== iphone SE ==================== */
+@media (max-width: 480px) {
+
+    /* header section */
+    .contents {
+        padding: 0 0.5rem;
+    }
+
+    .header_contents .contents h1 {
+        font-size: 2.3rem;
+    }
+
+    .c_name {
+        max-width: 200px;
+        width: 100%;
+        margin: 1rem 0;
+    }
+    /* header section */
+
+    /* ==== end t0 end ========= */
+    .ete .ete_title h2, .faq .faq_container .faq_left h4 {
+        font-size: 2rem;
+        margin: 0.8rem 0;
+    }
+    /* ==== end t0 end ========= */
+
+    /* ==== bereiche ======= */
+    .bereiche_contents .about_bereiche .bereiche_left_contents h3 {
+        font-size: 2rem;
+    }
+
+    .bereiche .bereiche_contents .about_bereiche .bereiche_right_img {
+        width: 100%;
+    }
+
+    .bereiche_cards .bereiche_card_container .bereiche_card {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .bereiche_cards .bereiche_card_container .bereiche_card img {
+        margin: 0 auto;
+    }
+    /* ==== bereiche ======= */
+
+    /* ====== br consulting =========== */
+    .br_consulting .br_consulting_container .br_consuting_right .calander {
+        width: 100%;
+    }
+    /* ====== br consulting =========== */
+
+    /* ============= faq section ======== */
+    .faq .faq_container .faq_left .faq_para {
+        font-size: 1rem;
+    }
+
+    .faq .faq_container .faq_right {
+        width: 100% !important;
+    }
+    /* ============= faq section ======== */
+
+    /* ===== footer ======= */
+    footer .footer_content .footer_right {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 2rem;
+    }
+    /* ===== footer ======= */
+    
+}
+/* =============== iphone SE ==================== */
