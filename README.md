@@ -1,3 +1,8 @@
+[Repo Size](https://img.shields.io/github/reo-size/shahed2008/codesquad-424)
+
+<br>
+
+
 # This is Preview
 
 
