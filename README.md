@@ -1,4 +1,4 @@
-[Repo Size](https://img.shields.io/github/reo-size/shahed2008/codesquad-424)
+![GitHub repo size](https://img.shields.io/github/repo-size/shahed2008/codesquade-424)
 
 <br>
 
